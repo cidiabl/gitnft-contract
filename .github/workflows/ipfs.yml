@@ -1,0 +1,21 @@
+name: IPFS
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    env:
+      API_URL: "https://ipfs.infura.io:5001/api/v0"
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Upload contract.json
+        run: curl --silent -X POST -F file=@static/contract.json "$API_URL/add?cid-version=1"
+
+      - name: Upload GitNFT.sol
+        run: curl --silent -X POST -F file=@contracts/GitNFT.sol "$API_URL/add"

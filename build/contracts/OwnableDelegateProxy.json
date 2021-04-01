@@ -1,0 +1,132 @@
+{
+  "contractName": "OwnableDelegateProxy",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.3+commit.8d00100c\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"details\":\"Wyvern Proxy Registry v2 <https://github.com/ProjectWyvern/wyvern-ethereum/blob/bfca101b2407e4938398fccd8d1c485394db7e01/contracts/registry/OwnableDelegateProxy.sol#L13>\",\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"./contracts/OwnableDelegateProxy.sol\":\"OwnableDelegateProxy\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"./contracts/OwnableDelegateProxy.sol\":{\"keccak256\":\"0x036a4254f9aa4f5f04b4e554867caa10cc67524222380c7a84641549a317a4fa\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://753cab7c11a23ace4c5c02b9f897b16f80eac040b52cb94062c0a207d64f19dd\",\"dweb:/ipfs/QmcC8a35DZAzGTsCv5N3oJ4wzob1BnWHCw5hNyrmvG4qhD\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220785c2ab1d0d234e46d09bb5b3a7693567eb19bf789c933c0156e2ad54729ece464736f6c63430008030033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220785c2ab1d0d234e46d09bb5b3a7693567eb19bf789c933c0156e2ad54729ece464736f6c63430008030033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "249:34:2:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "249:34:2:-:0;;;;;",
+  "ast": {
+    "absolutePath": "./contracts/OwnableDelegateProxy.sol",
+    "exportedSymbols": {
+      "OwnableDelegateProxy": [
+        1262
+      ]
+    },
+    "id": 1263,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1260,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": {
+          "id": 1261,
+          "nodeType": "StructuredDocumentation",
+          "src": "66:183:2",
+          "text": "@dev Wyvern Proxy Registry v2\n <https://github.com/ProjectWyvern/wyvern-ethereum/blob/bfca101b2407e4938398fccd8d1c485394db7e01/contracts/registry/OwnableDelegateProxy.sol#L13>"
+        },
+        "fullyImplemented": true,
+        "id": 1262,
+        "linearizedBaseContracts": [
+          1262
+        ],
+        "name": "OwnableDelegateProxy",
+        "nameLocation": "258:20:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1263,
+        "src": "249:34:2"
+      }
+    ],
+    "src": "32:252:2"
+  },
+  "legacyAST": {
+    "absolutePath": "./contracts/OwnableDelegateProxy.sol",
+    "exportedSymbols": {
+      "OwnableDelegateProxy": [
+        1262
+      ]
+    },
+    "id": 1263,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1260,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": {
+          "id": 1261,
+          "nodeType": "StructuredDocumentation",
+          "src": "66:183:2",
+          "text": "@dev Wyvern Proxy Registry v2\n <https://github.com/ProjectWyvern/wyvern-ethereum/blob/bfca101b2407e4938398fccd8d1c485394db7e01/contracts/registry/OwnableDelegateProxy.sol#L13>"
+        },
+        "fullyImplemented": true,
+        "id": 1262,
+        "linearizedBaseContracts": [
+          1262
+        ],
+        "name": "OwnableDelegateProxy",
+        "nameLocation": "258:20:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 1263,
+        "src": "249:34:2"
+      }
+    ],
+    "src": "32:252:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.3+commit.8d00100c.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.3.4",
+  "updatedAt": "2021-03-31T01:41:03.199Z",
+  "devdoc": {
+    "details": "Wyvern Proxy Registry v2 <https://github.com/ProjectWyvern/wyvern-ethereum/blob/bfca101b2407e4938398fccd8d1c485394db7e01/contracts/registry/OwnableDelegateProxy.sol#L13>",
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

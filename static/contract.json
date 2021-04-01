@@ -1,0 +1,8 @@
+{
+  "name": "GitNFT",
+  "description": "Mint NFTs from your commits.",
+  "image": "https://avatars.githubusercontent.com/u/80604055",
+  "external_link": "https://gitnft.io",
+  "seller_fee_basis_points": 100,
+  "fee_recipient": "0xA1c5883f43d9eE7622899fa92583c081624B9469"
+}
